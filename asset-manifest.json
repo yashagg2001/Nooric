@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Nooric/static/css/main.9e41ec42.css",
+    "main.js": "/Nooric/static/js/main.a70d4302.js",
+    "static/js/453.804961f5.chunk.js": "/Nooric/static/js/453.804961f5.chunk.js",
+    "index.html": "/Nooric/index.html",
+    "main.9e41ec42.css.map": "/Nooric/static/css/main.9e41ec42.css.map",
+    "main.a70d4302.js.map": "/Nooric/static/js/main.a70d4302.js.map",
+    "453.804961f5.chunk.js.map": "/Nooric/static/js/453.804961f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e41ec42.css",
+    "static/js/main.a70d4302.js"
+  ]
+}
