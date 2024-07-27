@@ -1,17 +1,19 @@
 import React from 'react';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import RedirectPage from './pages/RedirectPage';
-import HomePage from './pages/HomePage'; // Example existing page
+import HomePage from './pages/HomePage'; 
 
 function App() {
   return (
-    <Router>
+    <>
+    <HashRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/qr" element={<RedirectPage />} />
+        <Route path="/" element={<HomePage/>} ></Route>
+        <Route path="/qr" element={<RedirectPage/>} ></Route>
       </Routes>
-    </Router>
+    </HashRouter>
+    </>
   );
 }
 
