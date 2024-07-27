@@ -1,16 +1,17 @@
 import React from 'react';
-import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './components/Home';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import RedirectPage from './pages/RedirectPage';
+import HomePage from './pages/HomePage'; // Example existing page
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Home />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/qr" element={<RedirectPage />} />
+      </Routes>
+    </Router>
   );
 }
 
